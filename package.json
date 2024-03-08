@@ -1,22 +1,27 @@
 {
-  "name": "nodejs-basic",
-  "version": "1.0.0",
-  "description": "Belajar Dasar NodeJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/attmhd/nodejs-basic.git"
-  },
-  "keywords": [
-    "nodejs"
-  ],
-  "author": "attmhd",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/attmhd/nodejs-basic/issues"
-  },
-  "homepage": "https://github.com/attmhd/nodejs-basic#readme"
+    "name": "nodejs-basic",
+    "version": "1.0.0",
+    "description": "Belajar Dasar NodeJS",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "NODE_ENV=development node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/attmhd/nodejs-basic.git"
+    },
+    "keywords": [
+        "nodejs"
+    ],
+    "author": "attmhd",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/attmhd/nodejs-basic/issues"
+    },
+    "homepage": "https://github.com/attmhd/nodejs-basic#readme",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "moment": "^2.30.1"
+    }
 }
